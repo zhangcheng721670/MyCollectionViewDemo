@@ -1,16 +1,16 @@
 //
-//  MyCell.m
+//  MyFirstLevelCell.m
 //  MyCollectionView
 //
 //  Created by leeco on 2019/10/15.
 //  Copyright © 2019 letv. All rights reserved.
 //
 
-#import "MyCell.h"
+#import "MyFirstLevelCell.h"
 #import "MySecondLevelCell.h"
-@interface MyCell ()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout,MySecondLevelCellDelegate>
+@interface MyFirstLevelCell ()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout,MySecondLevelCellDelegate>
 @end
-@implementation MyCell
+@implementation MyFirstLevelCell
 -(instancetype)initWithFrame:(CGRect)frame {
     
     self = [super initWithFrame:frame];

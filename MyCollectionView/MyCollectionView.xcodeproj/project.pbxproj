@@ -15,7 +15,7 @@
 		7A2197412355E75B00FA607F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A21973F2355E75B00FA607F /* LaunchScreen.storyboard */; };
 		7A2197442355E75B00FA607F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2197432355E75B00FA607F /* main.m */; };
 		7A21974C2355E81300FA607F /* MyHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A21974B2355E81300FA607F /* MyHeader.m */; };
-		7A21974F2355E83200FA607F /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A21974E2355E83200FA607F /* MyCell.m */; };
+		7A21974F2355E83200FA607F /* MyFirstLevelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A21974E2355E83200FA607F /* MyFirstLevelCell.m */; };
 		7A2197522355ECEE00FA607F /* MyLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2197512355ECEE00FA607F /* MyLayout.m */; };
 		7A2197552355F37300FA607F /* MySecondLevelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2197542355F37300FA607F /* MySecondLevelCell.m */; };
 /* End PBXBuildFile section */
@@ -35,8 +35,8 @@
 		7A2197432355E75B00FA607F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7A21974A2355E81300FA607F /* MyHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyHeader.h; sourceTree = "<group>"; };
 		7A21974B2355E81300FA607F /* MyHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyHeader.m; sourceTree = "<group>"; };
-		7A21974D2355E83200FA607F /* MyCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
-		7A21974E2355E83200FA607F /* MyCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
+		7A21974D2355E83200FA607F /* MyFirstLevelCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFirstLevelCell.h; sourceTree = "<group>"; };
+		7A21974E2355E83200FA607F /* MyFirstLevelCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstLevelCell.m; sourceTree = "<group>"; };
 		7A2197502355ECEE00FA607F /* MyLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyLayout.h; sourceTree = "<group>"; };
 		7A2197512355ECEE00FA607F /* MyLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLayout.m; sourceTree = "<group>"; };
 		7A2197532355F37300FA607F /* MySecondLevelCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySecondLevelCell.h; sourceTree = "<group>"; };
@@ -83,8 +83,8 @@
 				7A2197512355ECEE00FA607F /* MyLayout.m */,
 				7A21974A2355E81300FA607F /* MyHeader.h */,
 				7A21974B2355E81300FA607F /* MyHeader.m */,
-				7A21974D2355E83200FA607F /* MyCell.h */,
-				7A21974E2355E83200FA607F /* MyCell.m */,
+				7A21974D2355E83200FA607F /* MyFirstLevelCell.h */,
+				7A21974E2355E83200FA607F /* MyFirstLevelCell.m */,
 				7A2197532355F37300FA607F /* MySecondLevelCell.h */,
 				7A2197542355F37300FA607F /* MySecondLevelCell.m */,
 				7A21973A2355E75700FA607F /* Main.storyboard */,
@@ -173,7 +173,7 @@
 				7A2197442355E75B00FA607F /* main.m in Sources */,
 				7A2197362355E75700FA607F /* SceneDelegate.m in Sources */,
 				7A21974C2355E81300FA607F /* MyHeader.m in Sources */,
-				7A21974F2355E83200FA607F /* MyCell.m in Sources */,
+				7A21974F2355E83200FA607F /* MyFirstLevelCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

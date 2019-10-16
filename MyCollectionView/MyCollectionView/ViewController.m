@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "MyCell.h"
+#import "MyFirstLevelCell.h"
 #import "MySecondLevelCell.h"
 
 #import "MyHeader.h"
@@ -29,7 +29,7 @@
         _toolCollectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 20, kWidth,  kHeight-20) collectionViewLayout:layout];
         _toolCollectionView.delegate = self;
         _toolCollectionView.dataSource = self;
-        [_toolCollectionView registerClass:[MyCell class] forCellWithReuseIdentifier:@"cell1"];
+        [_toolCollectionView registerClass:[MyFirstLevelCell class] forCellWithReuseIdentifier:@"cell1"];
         [_toolCollectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"cell2"];
         [_toolCollectionView registerClass:[MyHeader class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"header"];
         
@@ -67,7 +67,7 @@
         cell.backgroundColor = [UIColor redColor];
         return cell;
     }else {
-        MyCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cell1"
+        MyFirstLevelCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cell1"
                                                                                forIndexPath:indexPath];
         cell.backgroundColor = [UIColor orangeColor];
         cell.delegate =self;
@@ -90,7 +90,7 @@
     headerView.backgroundColor = [UIColor purpleColor];
     return headerView;
 }
-- (void)myCell:(MyCell *)secondLevelCell scrollView:(UIScrollView *)scrollView{
+- (void)myCell:(MyFirstLevelCell *)secondLevelCell scrollView:(UIScrollView *)scrollView{
     NSLog(@"self.toolCollectionView.contentOffset.y====%f",self.toolCollectionView.contentOffset.y);
     if (scrollView.contentOffset.y == 0) {
         scrollView.scrollEnabled = NO;
@@ -102,7 +102,7 @@
 }
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView{
     if (scrollView.contentOffset.y == 100) {
-        MyCell*cell = [self.toolCollectionView cellForItemAtIndexPath:[NSIndexPath indexPathForItem:0 inSection:1]];
+        MyFirstLevelCell*cell = [self.toolCollectionView cellForItemAtIndexPath:[NSIndexPath indexPathForItem:0 inSection:1]];
         UICollectionView*collectionView1 = cell.itemCollectionView;
         NSInteger index = collectionView1.contentOffset.x/kWidth;
         MySecondLevelCell*cell2 = [collectionView1 cellForItemAtIndexPath:[NSIndexPath indexPathForItem:index inSection:0]];
