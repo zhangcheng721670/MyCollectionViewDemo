@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A0F0D5423598381000F89E5 /* aaa.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A0F0D5323598381000F89E5 /* aaa.png */; };
 		7A2197332355E75700FA607F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2197322355E75700FA607F /* AppDelegate.m */; };
 		7A2197362355E75700FA607F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2197352355E75700FA607F /* SceneDelegate.m */; };
 		7A2197392355E75700FA607F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2197382355E75700FA607F /* ViewController.m */; };
@@ -14,13 +15,14 @@
 		7A21973E2355E75B00FA607F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A21973D2355E75B00FA607F /* Assets.xcassets */; };
 		7A2197412355E75B00FA607F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A21973F2355E75B00FA607F /* LaunchScreen.storyboard */; };
 		7A2197442355E75B00FA607F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2197432355E75B00FA607F /* main.m */; };
-		7A21974C2355E81300FA607F /* MyHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A21974B2355E81300FA607F /* MyHeader.m */; };
-		7A21974F2355E83200FA607F /* MyFirstLevelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A21974E2355E83200FA607F /* MyFirstLevelCell.m */; };
-		7A2197522355ECEE00FA607F /* MyLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2197512355ECEE00FA607F /* MyLayout.m */; };
-		7A2197552355F37300FA607F /* MySecondLevelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2197542355F37300FA607F /* MySecondLevelCell.m */; };
+		7AC0EFDE235DB82500217C6E /* MyBgTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC0EFDD235DB82500217C6E /* MyBgTableView.m */; };
+		7AC0EFE1235DBB8600217C6E /* MyBgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC0EFE0235DBB8600217C6E /* MyBgView.m */; };
+		7AC0EFE4235DBC2B00217C6E /* MyPagerContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC0EFE3235DBC2B00217C6E /* MyPagerContainerView.m */; };
+		7AC0EFE7235DBCB700217C6E /* MyPageCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC0EFE6235DBCB700217C6E /* MyPageCollectionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A0F0D5323598381000F89E5 /* aaa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aaa.png; sourceTree = "<group>"; };
 		7A21972E2355E75700FA607F /* MyCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A2197312355E75700FA607F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7A2197322355E75700FA607F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -33,14 +35,14 @@
 		7A2197402355E75B00FA607F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A2197422355E75B00FA607F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A2197432355E75B00FA607F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7A21974A2355E81300FA607F /* MyHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyHeader.h; sourceTree = "<group>"; };
-		7A21974B2355E81300FA607F /* MyHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyHeader.m; sourceTree = "<group>"; };
-		7A21974D2355E83200FA607F /* MyFirstLevelCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFirstLevelCell.h; sourceTree = "<group>"; };
-		7A21974E2355E83200FA607F /* MyFirstLevelCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstLevelCell.m; sourceTree = "<group>"; };
-		7A2197502355ECEE00FA607F /* MyLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyLayout.h; sourceTree = "<group>"; };
-		7A2197512355ECEE00FA607F /* MyLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLayout.m; sourceTree = "<group>"; };
-		7A2197532355F37300FA607F /* MySecondLevelCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySecondLevelCell.h; sourceTree = "<group>"; };
-		7A2197542355F37300FA607F /* MySecondLevelCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySecondLevelCell.m; sourceTree = "<group>"; };
+		7AC0EFDC235DB82500217C6E /* MyBgTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyBgTableView.h; sourceTree = "<group>"; };
+		7AC0EFDD235DB82500217C6E /* MyBgTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyBgTableView.m; sourceTree = "<group>"; };
+		7AC0EFDF235DBB8600217C6E /* MyBgView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyBgView.h; sourceTree = "<group>"; };
+		7AC0EFE0235DBB8600217C6E /* MyBgView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyBgView.m; sourceTree = "<group>"; };
+		7AC0EFE2235DBC2B00217C6E /* MyPagerContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPagerContainerView.h; sourceTree = "<group>"; };
+		7AC0EFE3235DBC2B00217C6E /* MyPagerContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPagerContainerView.m; sourceTree = "<group>"; };
+		7AC0EFE5235DBCB700217C6E /* MyPageCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPageCollectionView.h; sourceTree = "<group>"; };
+		7AC0EFE6235DBCB700217C6E /* MyPageCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPageCollectionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,20 +75,21 @@
 		7A2197302355E75700FA607F /* MyCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				7A0F0D5323598381000F89E5 /* aaa.png */,
 				7A2197312355E75700FA607F /* AppDelegate.h */,
 				7A2197322355E75700FA607F /* AppDelegate.m */,
 				7A2197342355E75700FA607F /* SceneDelegate.h */,
 				7A2197352355E75700FA607F /* SceneDelegate.m */,
 				7A2197372355E75700FA607F /* ViewController.h */,
 				7A2197382355E75700FA607F /* ViewController.m */,
-				7A2197502355ECEE00FA607F /* MyLayout.h */,
-				7A2197512355ECEE00FA607F /* MyLayout.m */,
-				7A21974A2355E81300FA607F /* MyHeader.h */,
-				7A21974B2355E81300FA607F /* MyHeader.m */,
-				7A21974D2355E83200FA607F /* MyFirstLevelCell.h */,
-				7A21974E2355E83200FA607F /* MyFirstLevelCell.m */,
-				7A2197532355F37300FA607F /* MySecondLevelCell.h */,
-				7A2197542355F37300FA607F /* MySecondLevelCell.m */,
+				7AC0EFDF235DBB8600217C6E /* MyBgView.h */,
+				7AC0EFE0235DBB8600217C6E /* MyBgView.m */,
+				7AC0EFDC235DB82500217C6E /* MyBgTableView.h */,
+				7AC0EFDD235DB82500217C6E /* MyBgTableView.m */,
+				7AC0EFE2235DBC2B00217C6E /* MyPagerContainerView.h */,
+				7AC0EFE3235DBC2B00217C6E /* MyPagerContainerView.m */,
+				7AC0EFE5235DBCB700217C6E /* MyPageCollectionView.h */,
+				7AC0EFE6235DBCB700217C6E /* MyPageCollectionView.m */,
 				7A21973A2355E75700FA607F /* Main.storyboard */,
 				7A21973D2355E75B00FA607F /* Assets.xcassets */,
 				7A21973F2355E75B00FA607F /* LaunchScreen.storyboard */,
@@ -154,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A2197412355E75B00FA607F /* LaunchScreen.storyboard in Resources */,
+				7A0F0D5423598381000F89E5 /* aaa.png in Resources */,
 				7A21973E2355E75B00FA607F /* Assets.xcassets in Resources */,
 				7A21973C2355E75700FA607F /* Main.storyboard in Resources */,
 			);
@@ -166,14 +170,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A2197552355F37300FA607F /* MySecondLevelCell.m in Sources */,
 				7A2197392355E75700FA607F /* ViewController.m in Sources */,
+				7AC0EFE1235DBB8600217C6E /* MyBgView.m in Sources */,
 				7A2197332355E75700FA607F /* AppDelegate.m in Sources */,
-				7A2197522355ECEE00FA607F /* MyLayout.m in Sources */,
+				7AC0EFE7235DBCB700217C6E /* MyPageCollectionView.m in Sources */,
+				7AC0EFDE235DB82500217C6E /* MyBgTableView.m in Sources */,
+				7AC0EFE4235DBC2B00217C6E /* MyPagerContainerView.m in Sources */,
 				7A2197442355E75B00FA607F /* main.m in Sources */,
 				7A2197362355E75700FA607F /* SceneDelegate.m in Sources */,
-				7A21974C2355E81300FA607F /* MyHeader.m in Sources */,
-				7A21974F2355E83200FA607F /* MyFirstLevelCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

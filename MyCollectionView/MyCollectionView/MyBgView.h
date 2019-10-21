@@ -1,8 +1,8 @@
 //
-//  MyHeader.h
+//  MyBgView.h
 //  MyCollectionView
 //
-//  Created by leeco on 2019/10/15.
+//  Created by leeco on 2019/10/21.
 //  Copyright © 2019 letv. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MyHeader : UICollectionReusableView
+@interface MyBgView : UIView
 
 @end
 
