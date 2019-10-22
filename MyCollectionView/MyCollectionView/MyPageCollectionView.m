@@ -35,6 +35,7 @@
 }
 
 - (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer {
+    
     if (self.gestureDelegate && [self.gestureDelegate respondsToSelector:@selector(pageCollectionViewGestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:)]) {
         return [self.gestureDelegate pageCollectionViewGestureRecognizer:gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:otherGestureRecognizer];
     }

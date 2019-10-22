@@ -15,10 +15,12 @@
 		7A21973E2355E75B00FA607F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A21973D2355E75B00FA607F /* Assets.xcassets */; };
 		7A2197412355E75B00FA607F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A21973F2355E75B00FA607F /* LaunchScreen.storyboard */; };
 		7A2197442355E75B00FA607F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2197432355E75B00FA607F /* main.m */; };
+		7A9424B4235EAC0700032E2B /* MyPageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9424B3235EAC0700032E2B /* MyPageTableViewCell.m */; };
 		7AC0EFDE235DB82500217C6E /* MyBgTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC0EFDD235DB82500217C6E /* MyBgTableView.m */; };
 		7AC0EFE1235DBB8600217C6E /* MyBgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC0EFE0235DBB8600217C6E /* MyBgView.m */; };
 		7AC0EFE4235DBC2B00217C6E /* MyPagerContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC0EFE3235DBC2B00217C6E /* MyPagerContainerView.m */; };
 		7AC0EFE7235DBCB700217C6E /* MyPageCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC0EFE6235DBCB700217C6E /* MyPageCollectionView.m */; };
+		7AC0EFEA235DCBBA00217C6E /* MyPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC0EFE9235DCBBA00217C6E /* MyPageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		7A2197402355E75B00FA607F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A2197422355E75B00FA607F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A2197432355E75B00FA607F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A9424B2235EAC0700032E2B /* MyPageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPageTableViewCell.h; sourceTree = "<group>"; };
+		7A9424B3235EAC0700032E2B /* MyPageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPageTableViewCell.m; sourceTree = "<group>"; };
 		7AC0EFDC235DB82500217C6E /* MyBgTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyBgTableView.h; sourceTree = "<group>"; };
 		7AC0EFDD235DB82500217C6E /* MyBgTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyBgTableView.m; sourceTree = "<group>"; };
 		7AC0EFDF235DBB8600217C6E /* MyBgView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyBgView.h; sourceTree = "<group>"; };
@@ -43,6 +47,9 @@
 		7AC0EFE3235DBC2B00217C6E /* MyPagerContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPagerContainerView.m; sourceTree = "<group>"; };
 		7AC0EFE5235DBCB700217C6E /* MyPageCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPageCollectionView.h; sourceTree = "<group>"; };
 		7AC0EFE6235DBCB700217C6E /* MyPageCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPageCollectionView.m; sourceTree = "<group>"; };
+		7AC0EFE8235DCBBA00217C6E /* MyPageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPageView.h; sourceTree = "<group>"; };
+		7AC0EFE9235DCBBA00217C6E /* MyPageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPageView.m; sourceTree = "<group>"; };
+		7AC0EFEB235DCC5900217C6E /* MyProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,12 +91,17 @@
 				7A2197382355E75700FA607F /* ViewController.m */,
 				7AC0EFDF235DBB8600217C6E /* MyBgView.h */,
 				7AC0EFE0235DBB8600217C6E /* MyBgView.m */,
+				7AC0EFEB235DCC5900217C6E /* MyProtocol.h */,
 				7AC0EFDC235DB82500217C6E /* MyBgTableView.h */,
 				7AC0EFDD235DB82500217C6E /* MyBgTableView.m */,
 				7AC0EFE2235DBC2B00217C6E /* MyPagerContainerView.h */,
 				7AC0EFE3235DBC2B00217C6E /* MyPagerContainerView.m */,
 				7AC0EFE5235DBCB700217C6E /* MyPageCollectionView.h */,
 				7AC0EFE6235DBCB700217C6E /* MyPageCollectionView.m */,
+				7AC0EFE8235DCBBA00217C6E /* MyPageView.h */,
+				7AC0EFE9235DCBBA00217C6E /* MyPageView.m */,
+				7A9424B2235EAC0700032E2B /* MyPageTableViewCell.h */,
+				7A9424B3235EAC0700032E2B /* MyPageTableViewCell.m */,
 				7A21973A2355E75700FA607F /* Main.storyboard */,
 				7A21973D2355E75B00FA607F /* Assets.xcassets */,
 				7A21973F2355E75B00FA607F /* LaunchScreen.storyboard */,
@@ -170,6 +182,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A9424B4235EAC0700032E2B /* MyPageTableViewCell.m in Sources */,
 				7A2197392355E75700FA607F /* ViewController.m in Sources */,
 				7AC0EFE1235DBB8600217C6E /* MyBgView.m in Sources */,
 				7A2197332355E75700FA607F /* AppDelegate.m in Sources */,
@@ -178,6 +191,7 @@
 				7AC0EFE4235DBC2B00217C6E /* MyPagerContainerView.m in Sources */,
 				7A2197442355E75B00FA607F /* main.m in Sources */,
 				7A2197362355E75700FA607F /* SceneDelegate.m in Sources */,
+				7AC0EFEA235DCBBA00217C6E /* MyPageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-@class MyPageCollectionView;
+#import "MyPageCollectionView.h"
+
+//@class MyPageCollectionView;
 @class MyBgTableView;
 @class MyPagerContainerView;
 @protocol MyPagerContainerViewDelegate <NSObject>

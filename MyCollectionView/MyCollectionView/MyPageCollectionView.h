@@ -13,7 +13,7 @@
 - (BOOL)pageCollectionViewGestureRecognizerShouldBegin:(MyPageCollectionView *)collectionView gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer;
 - (BOOL)pageCollectionViewGestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer;
 @end
-@interface MyPageCollectionView : UICollectionView
+@interface MyPageCollectionView : UICollectionView<UIGestureRecognizerDelegate>
 @property (nonatomic, assign) BOOL isNestEnabled;
 @property (nonatomic, weak) id<MyPageCollectionViewGestureDelegate> gestureDelegate;
 @end
