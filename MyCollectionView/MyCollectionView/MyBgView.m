@@ -31,7 +31,6 @@
 }
 - (void)initializeViews {
     [self addSubview:self.mainTableView];
-    self.listContainerView;
     self.isListHorizontalScrollEnabled = YES;
 
 }
